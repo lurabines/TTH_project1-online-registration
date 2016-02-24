@@ -236,9 +236,101 @@ select {
     padding: 10px 0px;
   }
  
-  form input,
-  form label {
-	  display: inline-block;
-  }
+	  form input,
+	  form label {
+		  display: inline-block;
+		  margin-bottom: 25px;
+	  }
+	  form input,
+	  select{
+		  margin-bottom: 25px;
+		  width: 65%;
+	  }
+	  form label{
+		  width: 30%;
+	  }  
+	  .user-info legend {
+		  margin-bottom: 30px;
+	  }
+	  
+	  .extra-section input[type="radio"],
+	  .extra-section input[type="checkbox"] {
+		  width: 6%;
+	  }	  
+	  .radio-label,
+	  .check-label {
+		width: 88%;	  
+	  }  
+  
+  
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
