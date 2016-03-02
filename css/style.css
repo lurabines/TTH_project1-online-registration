@@ -229,7 +229,7 @@ select {
 	Media Queries	
 --------------------------------------------*/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 760px) {
 
   form {
     max-width: 600px;
@@ -262,7 +262,10 @@ select {
 		width: 88%;	  
 	  }  
   
-  
+	  .label_textarea {
+		  margin:0 0 10px 0;
+		  width: 100%;
+	  }
 
 }
 
