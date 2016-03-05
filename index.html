@@ -104,9 +104,10 @@
 	        
 	       	<fieldset class="newsletter-section">
 		        <legend>Newsletter</legend>
-		        	<p>Select the newsletters you would like to receive</p>
+		        	
 		        
-		        <fieldset class="extra-section">	
+		        <fieldset class="extra-section">
+			        <legend class="legend_titles">Select the newsletters you would like to receive</legend>	
 			        <input type="checkbox" id="html_news" name="html_news" value="html_newsletters">
 			        	<label for="html_news" class="check-label">HTML News</label>
 			        
@@ -117,9 +118,9 @@
 			        	<label for="javascript_news" class="check-label">Javascript News</label>
 		        </fieldset>
 		        	
-		       <label class="newsletter-format">Newsletter format</label>
-		        
+		       
 		        <fieldset class="extra-section">
+			        <legend class="legend_titles">Newsletter format</legend>
 			        <input type="radio" id="html" value="html" name="format" >
 			        	<label for="html" class="radio-label">HTML</label><br>
 			        
@@ -127,8 +128,11 @@
 			        	<label for="text" class="radio-label">Plain Text</label>		        
 		        </fieldset>
 		        
-		        <label for="other-topics" class="label_textarea">Other topics you'd like to hear about</label>
-		        <textarea id="other-topics" name="user_topics"></textarea>	
+		        <fieldset class="textArea-section">
+		        	<legend class="legend_titles">Other topics you'd like to hear about</legend>
+					<textarea id="other-topics" name="user_topics"></textarea>	
+		        </fieldset>
+	       	
 	       	</fieldset>
 			
 	        <button type="submit" id="button">Sign Up</button>

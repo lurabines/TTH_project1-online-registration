@@ -91,6 +91,7 @@ fieldset {
 		font-size: 19px;
 		font-weight: bold;
 		letter-spacing: -0.5px;
+		margin-bottom: 20px;
 	}
 
 
@@ -208,7 +209,12 @@ select {
 		width: 85%;
 	}
 	
-
+.legend_titles {
+	color: #7a8896;
+	font-size: 14px;
+	font-weight: 200;
+	margin-bottom: 15px;	
+}
 
 
 
@@ -262,7 +268,7 @@ select {
 		width: 88%;	  
 	  }  
   
-	  .label_textarea {
+	  .legend_titles {
 		  margin:0 0 10px 0;
 		  width: 100%;
 	  }
